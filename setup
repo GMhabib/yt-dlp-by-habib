@@ -1,2 +1,2 @@
 #!/bin/bash
-pkg install python -y && pkg install ffmpeg -y && python3 -m pip install --upgrade yt-dlp && mkdir -p ~/bin && cd ~/bin && curl -LO 
+pkg install python -y && pkg install ffmpeg -y && python3 -m pip install --upgrade yt-dlp && mkdir -p ~/bin && cd ~/bin && curl -LO https://raw.githubusercontent.com/GMhabib/yt-dlp-by-habib/main/termux-url-opener && chmod +x termux-url-opener && cd ~/ && clear && echo "selesai" && sleep 2 && clear && exit
